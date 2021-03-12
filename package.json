@@ -1,0 +1,21 @@
+{
+    "name": "js-data-structure-algorithm-zx",
+    "version": "1.0.0",
+    "description": "learn js data structure and algorithm",
+    "main": "index.js",
+    "dependencies": {
+        "webpack-cli": "^4.5.0",
+        "webpack": "^5.24.4"
+    },
+    "devDependencies": {
+        "html-webpack-plugin": "^5.3.1",
+        "webpack-dev-server": "^3.11.2"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack",
+        "start": "webpack serve --mode development --open"
+    },
+    "author": "zhang xu",
+    "license": "ISC"
+}
